@@ -5,9 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
+    <form action="" id="form">
+        <h1>Formulario de registro</h1>
+        <div class="formRegistro">
+          <div>
+            <label for="nomCompleto">Nombre completo: </label>
+            <input type="text" id="nomCompleto" name="nomCompleto" />
+          </div>
+          <div>
+            <label for="correo">Correo electronico: </label>
+            <input type="email" id="correo" name="correo" />
+          </div>
+          <div>
+            <label for="contraseña">Contraseña: </label>
+            <input type="password" id="contraseña" name="contraseña" />
+          </div>
+          <div>
+            <label for="confContraseña">Confirmar contraseña: </label>
+            <input type="password" id="confContraseña" name="confContraseña" />
+          </div>
+          <div>
+            <label for="telefono">Telefono movil: </label>
+            <input type="tel" id="telefono" name="telefono" />
+          </div>
+          <p>Seleccione un genero:</p>
+          <div>
+            <input type="radio" id="seleccion" name="genero" value="HTML" />
+             <label for="seleccion">Masculino</label><br>
+            <input type="radio" id="seleccion2" name="genero" value="HTML" />
+            <label for="seleccion">Femenino</label>
+          </div>
+        </div>
+      </form>
 </body>
 </html>

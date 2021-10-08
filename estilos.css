@@ -42,3 +42,39 @@
     display: block;
     margin:0 auto;
 }
+#form {
+    /*background-color: black;*/
+    padding: 40px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+.formRegistro {
+    padding: 20px;
+    margin: 0 auto;
+    width: 0 auto;
+   /* background-color: aquamarine;*/
+}
+
+h1 {
+    text-align: center;
+    background-color: bisque;
+}
+
+#nomCompleto,
+#correo,
+#contraseña,
+#confContraseña,
+#telefono {
+    width: 240px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-style: dotted solid;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
